@@ -1,0 +1,59 @@
+---
+import Timer from "../../components/multipages/timer.jsx";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Tiempo para la nochevieja">
+  <main>
+    <div>
+      <Timer
+        evento="2024-12-31T12:00:00"
+        client:only="react"
+        nombreevent="Nochevieja"
+      />
+    </div>
+
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      La Nochevieja, también conocida como el último día del año, es una de las
+      celebraciones más importantes y esperadas en muchas culturas alrededor del
+      mundo. Tiene lugar el 31 de diciembre y marca el fin de un año y la
+      transición al nuevo. Es un momento cargado de simbolismo, donde se
+      combinan la alegría por lo que está por venir y la nostalgia por lo que se
+      deja atrás.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Tradicionalmente, la Nochevieja se celebra con amigos y familiares, en
+      reuniones llenas de comida, música y buen ambiente. La mayoría de las
+      personas se preparan para recibir el año nuevo con optimismo, planteándose
+      propósitos para mejorar o cumplir metas durante el nuevo ciclo que
+      comienza. Estas resoluciones varían desde cambiar hábitos, como hacer más
+      ejercicio, hasta alcanzar logros personales o profesionales.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Uno de los momentos más esperados de la Nochevieja es la cuenta regresiva
+      hacia la medianoche, cuando el reloj marca las 12 campanadas que
+      simbolizan la llegada del nuevo año. En muchos países, este instante se
+      celebra con fuegos artificiales, brindis con champán y gritos de
+      felicitación, deseándose mutuamente un feliz y próspero año nuevo.
+    </p>
+    <p
+      style="margin-left: auto; margin-right: auto; text-align: center; color:white; "
+    >
+      Texto generado por GPT-4o
+    </p>
+  </main>
+</Layout>
+
+<style>
+  div {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+  }
+</style>

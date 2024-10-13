@@ -1,0 +1,40 @@
+---
+import Events from "./events.astro";
+import EventosJSON from "./eventos.json";
+
+// Definir la variable con los eventos ya formateados como JSON string
+const eventosString = EventosJSON.events;
+---
+
+<script></script>
+
+<div class="divmain">
+  <div class="backgroundblue">
+    <div>
+      {
+        eventosString.map((evento) => (
+          <Events
+            event={evento.title}
+            description={evento.description}
+            url={evento.url}
+          />
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<style>
+  .divmain {
+    background-color: transparent;
+  }
+  .backgroundblue {
+    z-index: -2;
+    position: absolute;
+
+    padding-bottom: 30px;
+    height: auto;
+    width: 99%;
+    background-color: #217591;
+  }
+</style>

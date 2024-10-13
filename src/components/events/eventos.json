@@ -1,0 +1,46 @@
+{
+    "events": [
+        {
+            "title": "Navidad",
+            "description": "La celebración de la Navidad, una de las festividades más importantes del año, marcada por la unión familiar y la entrega de regalos.",
+            "date": "2024-12-25",
+            "url": "/dates/navidad"
+        },
+        {
+            "title": "Nochevieja",
+            "description": "El 31 de diciembre se despide el año con fiestas y celebraciones en todo el mundo, dando la bienvenida al nuevo año.",
+            "date": "2024-12-31",
+            "url": "/dates/nochevieja"
+        },
+        {
+            "title": "Año Nuevo",
+            "description": "El 1 de enero se celebra la llegada del nuevo año, con deseos de prosperidad y esperanza en todo el mundo.",
+            "date": "2025-01-01",
+            "url": "/dates/ano-nuevo"
+        },
+        {
+            "title": "Semana Santa",
+            "description": "Una festividad religiosa que conmemora la pasión, muerte y resurrección de Jesucristo, celebrada con procesiones y tradiciones.",
+            "date": "2025-04-13 to 2025-04-20",
+            "url": "/dates/semana-santa"
+        },
+        {
+            "title": "Día del Trabajo",
+            "description": "El 1 de mayo se celebra el Día Internacional del Trabajo, reconociendo los derechos de los trabajadores en muchas partes del mundo.",
+            "date": "2025-05-01",
+            "url": "/dates/dia-del-trabajo"
+        },
+        {
+            "title": "Halloween",
+            "description": "El 31 de octubre se celebra Halloween, una festividad popular con disfraces, dulces y actividades temáticas alrededor del terror.",
+            "date": "2024-10-31",
+            "url": "/dates/halloween"
+        },
+        {
+            "title": "Día de Todos los Santos",
+            "description": "El 1 de noviembre se celebra el Día de Todos los Santos, una festividad en honor a los fallecidos, conmemorada en muchos países.",
+            "date": "2024-11-01",
+            "url": "/dates/dia-de-todos-los-santos"
+        }
+    ]
+}

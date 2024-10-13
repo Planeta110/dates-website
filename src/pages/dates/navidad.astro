@@ -1,0 +1,55 @@
+---
+import Timer from "../../components/multipages/timer.jsx";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Tiempo para la Navidad">
+  <main>
+    <div>
+      <Timer evento="2024-12-25T12:00:00" client:only="react" nombreevent="Navidad" />
+    </div>
+
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      La Navidad es una de las festividades más celebradas en el mundo, y su
+      origen está profundamente ligado a la tradición cristiana, ya que
+      conmemora el nacimiento de Jesús en Belén. Sin embargo, con el tiempo, ha
+      evolucionado hasta convertirse en una celebración de carácter más
+      universal, llena de símbolos, costumbres y significados que trascienden la
+      religión.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Uno de los aspectos más importantes de la Navidad es la unión familiar.
+      Durante esta época, muchas personas regresan a sus hogares, sin importar
+      cuán lejos se encuentren, para pasar tiempo con sus seres queridos. Es un
+      momento de reflexión, de hacer balance del año que termina, de perdonar y
+      de compartir momentos de alegría.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Los símbolos más reconocidos de la Navidad son el árbol decorado, las
+      luces brillantes, los belenes (pesebres) que representan el nacimiento de
+      Jesús y, por supuesto, la figura de Papá Noel o Santa Claus, un personaje
+      que ha sido adoptado por muchas culturas. Según la tradición, este alegre
+      anciano, vestido de rojo, visita los hogares de los niños la noche del 24
+      de diciembre para dejar regalos si se han portado bien durante el año.
+    </p>
+    <p
+      style="margin-left: auto; margin-right: auto; text-align: center; color:white; "
+    >
+      Texto generado por GPT-4o
+    </p>
+  </main>
+</Layout>
+
+<style>
+  div {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+  }
+</style>

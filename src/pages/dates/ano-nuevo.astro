@@ -1,0 +1,59 @@
+---
+import Timer from "../../components/multipages/timer.jsx";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Tiempo para la año nuevo">
+  <main>
+    <div>
+      <Timer
+        evento="2025-01-01T12:00:00"
+        client:only="react"
+        nombreevent="Año nuevo"
+      />
+    </div>
+
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      El Año Nuevo es una de las celebraciones más universales y significativas
+      en todo el mundo. Marca el inicio de un nuevo ciclo, una oportunidad para
+      empezar de nuevo y dejar atrás el pasado. En muchas culturas, el 1 de
+      enero es un día de esperanza y optimismo, en el que se proyectan buenos
+      deseos y propósitos para los próximos doce meses.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      La víspera del Año Nuevo, conocida como Nochevieja, es generalmente el
+      momento en que se celebran las festividades principales, culminando a la
+      medianoche con la llegada del nuevo año. A partir de ese momento, comienza
+      una nueva etapa, que se suele recibir con alegría, fuegos artificiales,
+      abrazos, brindis y celebraciones masivas en muchas ciudades del mundo.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      El Año Nuevo es también un momento simbólico para reflexionar sobre lo
+      vivido en los meses anteriores, haciendo un balance de los éxitos y
+      aprendizajes, y trazando metas personales, profesionales o de bienestar
+      para el año que empieza. Los propósitos de Año Nuevo son una costumbre en
+      la que muchas personas se comprometen a mejorar aspectos de sus vidas,
+      como llevar una vida más saludable, mejorar relaciones personales, o
+      alcanzar metas de estudio o trabajo.
+    </p>
+    <p
+      style="margin-left: auto; margin-right: auto; text-align: center; color:white; "
+    >
+      Texto generado por GPT-4o
+    </p>
+  </main>
+</Layout>
+
+<style>
+  div {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+  }
+</style>

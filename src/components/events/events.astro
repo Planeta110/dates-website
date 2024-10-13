@@ -1,0 +1,48 @@
+---
+interface Props {
+  event: string;
+  description: string;
+  url: string;
+}
+
+const { event, description, url } = Astro.props;
+---
+
+<div>
+  <a id="h2title" href={url} aria-label={"Evento" + description}>
+    {event}
+  </a>
+  <p>{description}</p>
+  <a id="a" href={url}>Más información</a>
+</div>
+
+<style>
+  #d {
+    display: none;
+    z-index: -1111111;
+  }
+  #h2title:hover {
+    cursor: pointer;
+    color: rgb(209, 239, 251);
+  }
+  #h2title {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit;
+    font-size: 45px;
+    transition: all 0.2s ease;
+    font: bold;
+  }
+  #a {
+    color: rgb(195, 233, 245);
+    cursor: pointer;
+  }
+  div {
+    margin-top: 30px;
+    margin-left: 380px;
+  }
+  @media (max-width: 749px) {
+    div {
+      margin-left: 10px;
+    }
+  }
+</style>

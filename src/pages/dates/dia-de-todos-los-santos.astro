@@ -1,0 +1,58 @@
+---
+import Timer from "../../components/multipages/timer.jsx";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Tiempo para el dia de todos los santos">
+  <main>
+    <div>
+      <Timer
+        evento="2024-11-01T12:00:00"
+        client:only="react"
+        nombreevent="Dia de todos los santos"
+      />
+    </div>
+
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      El Día de Todos los Santos es una festividad cristiana que se celebra el 1
+      de noviembre en muchas tradiciones del mundo, con el fin de honrar y
+      recordar a todos los santos, conocidos y desconocidos. Esta celebración
+      tiene sus raíces en el cristianismo y se ha transformado con el tiempo en
+      una ocasión para conmemorar a todos aquellos que han fallecido,
+      especialmente aquellos que no tienen un día específico en el calendario
+      litúrgico.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      La celebración del Día de Todos los Santos se remonta al siglo IV, cuando
+      se empezó a honrar a los mártires y santos de la iglesia. Sin embargo, la
+      fijación de la fecha del 1 de noviembre como el Día de Todos los Santos
+      fue formalizada por el Papa Gregorio III en el siglo VIII. En este día, se
+      dedicó una capilla en la Basílica de San Pedro en Roma a todos los
+      mártires cristianos.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      A lo largo de los siglos, la festividad se fue expandiendo por toda Europa
+      y se incorporó en diferentes culturas, integrando elementos autóctonos y
+      tradiciones locales.
+    </p>
+    <p
+      style="margin-left: auto; margin-right: auto; text-align: center; color:white; "
+    >
+      Texto generado por GPT-4o
+    </p>
+  </main>
+</Layout>
+
+<style>
+  div {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+  }
+</style>

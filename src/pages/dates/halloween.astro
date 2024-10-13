@@ -1,0 +1,57 @@
+---
+import Timer from "../../components/multipages/timer.jsx";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Tiempo para Halloween">
+  <main>
+    <div>
+      <Timer
+        evento="2024-10-31T12:00:00"
+        client:only="react"
+        nombreevent="Halloween"
+      />
+    </div>
+
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Halloween, también conocido como Noche de Brujas, se celebra el 31 de
+      octubre y es una festividad que tiene su origen en antiguas tradiciones
+      celtas. Con el tiempo, se ha transformado en una celebración popular que
+      combina elementos de cultura pagana, cristiana y, en la actualidad,
+      influencias comerciales y de entretenimiento.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Halloween tiene raíces en la antigua festividad celta de Samhain, que
+      marcaba el final del verano y el comienzo del invierno. Los celtas creían
+      que en la noche de Samhain, el velo entre el mundo de los vivos y el de
+      los muertos se hacía más delgado, lo que permitía a los espíritus cruzar
+      al mundo de los vivos. Para protegerse de estos espíritus, las personas
+      encendían hogueras y llevaban máscaras o disfraces.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      Con la llegada del cristianismo, la festividad se fusionó con la
+      celebración de Todos los Santos, que se celebra el 1 de noviembre. La
+      víspera de Todos los Santos, que era el 31 de octubre, se convirtió en
+      Halloween, un día para honrar a los santos y recordar a los difuntos.
+    </p>
+    <p
+      style="margin-left: auto; margin-right: auto; text-align: center; color:white; "
+    >
+      Texto generado por GPT-4o
+    </p>
+  </main>
+</Layout>
+
+<style>
+  div {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+  }
+</style>

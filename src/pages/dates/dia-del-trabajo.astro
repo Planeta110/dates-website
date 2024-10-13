@@ -1,0 +1,60 @@
+---
+import Timer from "../../components/multipages/timer.jsx";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Tiempo para el dia del trabajo">
+  <main>
+    <div>
+      <Timer
+        evento="2025-05-01T12:00:00"
+        client:only="react"
+        nombreevent="Dia del trabajo"
+      />
+    </div>
+
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      El Día del Trabajo, celebrado el 1 de mayo, es una jornada dedicada a la
+      conmemoración de los logros y derechos de los trabajadores. Su origen se
+      remonta a finales del siglo XIX, en el contexto de la Revolución
+      Industrial, cuando las condiciones laborales eran extremadamente difíciles
+      y peligrosas. Los trabajadores exigían una jornada laboral de ocho horas,
+      así como mejores condiciones de trabajo y salarios justos.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      La celebración del Día del Trabajo tiene sus raíces en las huelgas y
+      movilizaciones que tuvieron lugar en Estados Unidos en 1886,
+      particularmente la famosa huelga de Haymarket en Chicago. El 1 de mayo de
+      ese año, miles de trabajadores salieron a las calles para exigir una
+      jornada laboral de ocho horas. Sin embargo, la manifestación terminó en un
+      violento enfrentamiento con la policía, lo que llevó a la muerte de varios
+      manifestantes. Este trágico evento destacó la lucha de los trabajadores y
+      se convirtió en un símbolo de la lucha por los derechos laborales.
+    </p>
+    <p
+      style="color:white; width: 800px; margin-left: auto; margin-right: auto; font-size: 20px;"
+    >
+      En 1889, la Segunda Conferencia de la Asociación Internacional de
+      Trabajadores (AIT) proclamó el 1 de mayo como el Día Internacional de los
+      Trabajadores, en honor a los mártires de Haymarket y como una forma de
+      promover los derechos laborales a nivel global.
+    </p>
+    <p
+      style="margin-left: auto; margin-right: auto; text-align: center; color:white; "
+    >
+      Texto generado por GPT-4o
+    </p>
+  </main>
+</Layout>
+
+<style>
+  div {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+  }
+</style>
